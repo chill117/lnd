@@ -299,7 +299,7 @@ schemes, compared to the file system notification based approach.
 If a node is being created from scratch, then it's possible to pass in an
 existing SCB using the `lncli create` or `lncli unlock` commands:
 ```
-⛰  lncli create -multi_file=channels.backup
+⛰  lncli create --multi_file=channels.backup
 ```
 
 Alternatively, the `restorechanbackup` command can be used if `lnd` has already
